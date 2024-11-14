@@ -17,7 +17,9 @@ public class reto3 {
 		}while(fecha2.isBefore(fecha1));
 		
 		if(fecha1.getYear()==fecha2.getYear()) {
-			
+			funciones1.mismoAnyo(fecha1, fecha2, sc);
+		}else {
+			funciones2.diferenteAnio(fecha1, fecha2);
 		}
 
 	}

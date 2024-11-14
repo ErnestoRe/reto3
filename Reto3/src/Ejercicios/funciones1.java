@@ -12,7 +12,7 @@ public class funciones1 {
 			if (difMeses < 3) {
 				difMeses = 4;
 			}
-			System.out.println(difMeses);
+			
 
 			String masCorto = "";
 			String primeroAlfa = "";

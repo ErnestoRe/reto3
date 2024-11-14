@@ -2,7 +2,6 @@ package Ejercicios;
 
 
 import java.time.LocalDate;
-import java.time.Month;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.Scanner;
@@ -29,6 +28,7 @@ public class funciones2 {
 	
 	public static void consonantes(LocalDate fecha2) {
 		String mesFecha2 = String.valueOf(fecha2.getMonth());
+		mesFecha2 = mesFecha2.toLowerCase();
 		char caracter;
 		for(int i = 0; i<mesFecha2.length();i++) {
 			caracter = mesFecha2.charAt(i);
