@@ -1,12 +1,15 @@
 package Ejercicios;
 
+
 import java.time.LocalDate;
 import java.time.Month;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.Scanner;
 
+
 public class funciones2 {
+
 	public static void diferenteAnio(LocalDate fecha1, LocalDate fecha2) {
 		int diasTotal = 0;
 		int meses = (int) ChronoUnit.MONTHS.between(fecha1, fecha2);
